@@ -4,8 +4,8 @@
 https://mainstay-demo.vercel.app/
 
 This project is a single-page React app (Vite + TypeScript) backed by a small Django service
-that persists selected countries. The frontend fetches search results from REST Countries
-and uses the backend to remember the user's pinned list across refreshes.
+that persists selected countries. The frontend fetches search results from REST Countries search
+endpoint and uses the backend to remember the user's pinned list across refreshes.
 
 ## Backend design (Django)
 
@@ -67,7 +67,7 @@ The server will run at `http://localhost:8000` by default.
 
 # Frontend
 
-This folder contains the React + Vite frontend for the Country Search + Selection app.
+This folder contains React + Vite frontend for the Country Search + Selection app.
 
 ## Structure
 - `src/App.tsx`: Page layout and state orchestration.
@@ -87,8 +87,6 @@ The search results come directly from `https://restcountries.com/v3.1/name/{name
 are limited to five results for clarity and speed.
 
 ## Running the frontend
-The frontend is a standard React app powered by Vite.
-
 From the repo root:
 
 ```bash
