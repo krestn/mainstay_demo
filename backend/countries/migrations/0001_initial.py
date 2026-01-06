@@ -1,4 +1,3 @@
-# Generated manually to keep the exercise self-contained.
 from django.db import migrations, models
 
 
