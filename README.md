@@ -3,7 +3,7 @@
 ## Live Demo
 https://mainstay-demo.vercel.app/
 
-This project is a single-page React app (UMD + Babel) backed by a small Django service
+This project is a single-page React app (Vite + TypeScript) backed by a small Django service
 that persists selected countries. The frontend fetches search results from REST Countries
 and uses the backend to remember the user's pinned list across refreshes.
 
