@@ -1,6 +1,7 @@
 # Country Search + Selection Service
 
-Demo: https://mainstay-demo.vercel.app/
+## Live Demo
+https://mainstay-demo.vercel.app/
 
 This project is a single-page React app (UMD + Babel) backed by a small Django service
 that persists selected countries. The frontend fetches search results from REST Countries
@@ -104,6 +105,3 @@ If the backend runs on a different host, set `VITE_API_BASE_URL` before starting
 ```bash
 VITE_API_BASE_URL="http://localhost:8000/api" npm run dev
 ```
-
-## Live Demo
-https://mainstay-demo.vercel.app/
